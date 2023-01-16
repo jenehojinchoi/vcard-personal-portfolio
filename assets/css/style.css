@@ -2053,7 +2053,17 @@ textarea.form-input::-webkit-resizer {
     text-overflow: ellipsis;
   }
 
-  .contact-info :is(.contact-link, time, address) {
+  .resume-link {
+    --fs-7: 14px;
+    font-weight: var(--fw-300);
+    color: white;
+  }
+
+  .resume-link:hover {
+    text-decoration: underline;
+  }
+
+  .contact-info :is(.resume-link) {
     --fs-7: 14px;
     font-weight: var(--fw-300);
   }
