@@ -963,6 +963,7 @@ main {
 
 .skill-item {
   color: var(--vegas-gold);
+  font-size: 0.9rem;
 }
 
 .skill-text {
@@ -2056,7 +2057,7 @@ textarea.form-input::-webkit-resizer {
   .resume-link {
     --fs-7: 14px;
     font-weight: var(--fw-300);
-    color: white;
+    color: white !important;
   }
 
   .resume-link:hover {
